@@ -1,0 +1,138 @@
+.combined-shape {
+  align-self: flex-start;
+  height: 35px;
+  margin-top: 2.92px;
+  mix-blend-mode: normal;
+  width: 35px;
+}
+.flex-row-footer {
+  align-items: center;
+  display: flex;
+  min-width: 1463px;
+  width: 80%;
+  margin: 9px auto 0 auto;
+}
+.footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 64px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  width: 100%;
+  margin: 55px auto 0 auto;
+  border-top: 1px solid #F2F4F8;
+  background: var(--white);
+
+  /*position: fixed;*/
+  /*bottom: 0;*/
+
+}
+.line-4 {
+  /*height: 2px;*/
+  margin: 0 auto;
+  width: 80%;
+}
+.link {
+  height: 53px;
+  left: 121px;
+  position: absolute;
+  top: 0;
+  width: 65px;
+}
+.overlap-group-footer {
+  height: 53px;
+  /*margin-left: 494px;*/
+  position: relative;
+  width: 309px;
+}
+.icons-footer {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.place {
+  height: 100%;
+  letter-spacing: 0;
+  line-height: 22px;
+  /*margin-left: 396px;*/
+  min-height: 9px;
+  min-width: 61px;
+  mix-blend-mode: normal;
+  text-align: right;
+  text-decoration: underline;
+  white-space: nowrap;
+  width: 50%;
+}
+.privacy-policy {
+  height: 100%;
+  letter-spacing: 0;
+  line-height: 22px;
+  /*margin-left: 59px;*/
+  min-height: 9px;
+  min-width: 109px;
+  mix-blend-mode: normal;
+  text-align: right;
+  text-decoration: underline;
+  white-space: nowrap;
+  width: 50%;
+}
+.text-1 {
+  height: 9px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 22px;
+  mix-blend-mode: normal;
+  /*position: absolute;*/
+  text-align: right;
+  top: 16px;
+  white-space: nowrap;
+  width: 309px;
+}
+.footer a {
+  color: var(--black)
+}
+.flex-col-footer {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-left: 38px;
+  width: 33%;
+  height: 100%;
+}
+.flex-col-footer-center {
+  align-items: center;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  text-align: center;
+  height: 100%;
+}
+.flex-col-footer-end {
+  align-items: center;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  margin-right: 38px;
+  text-align: center;
+  height: 100%;
+}
+.footer-links {
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  text-align: end;
+}
+@media (max-width: 1800px) {
+  .place, .privacy-policy {
+    text-align: center;
+  }
+}
+@media (max-width: 1400px) {
+  .flex-col-footer {
+    width: 10%;
+  }
+}

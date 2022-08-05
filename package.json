@@ -1,5 +1,5 @@
 {
-  "name": "fingible",
+  "name": "LIVETHELIFETV",
   "scripts": {
     "start": "env-cmd -f .env parcel index.html",
     "build": "env-cmd -f .env parcel build index.html"

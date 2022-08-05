@@ -29,7 +29,7 @@ function Footer(props) {
         <div className="flex-col-footer-end">
           <div className="footer-links">
             <div className="place valign-text-middle apercupro-medium-black-16px">
-              <a href="https://www.livethelifetv/" target="_blank">LTL</a>
+              <a href="https://www.livethelifetv/" target="_blank">LIVETHELIFETV</a>
             </div>
             <div className="privacy-policy valign-text-middle apercupro-medium-black-16px">
               <a href="/privacy-policy">

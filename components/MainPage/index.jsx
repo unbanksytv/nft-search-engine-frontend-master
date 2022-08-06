@@ -38,7 +38,7 @@ class MainPage extends React.Component {
           <div className="main-page screen">
             <div className="flex-row">
               <div className="flex-col-1-header">
-                <div className="g-nft">LTL</div>
+                <div className="g-nft">LIVETHELIFETV</div>
               </div>
               <div className="flex-col-6-header">
                 <div className="text-2">Google for NFTs</div>
@@ -54,7 +54,7 @@ class MainPage extends React.Component {
               <div className="flex-col-header">
                 <a href="https://www.nftport.xyz/" target="_blank" className="desktop">
                   <div className="overlap-group button get-api-access">
-                    Built with NFTPort
+                    NFTPort
                   </div>
                 </a>
               </div>
